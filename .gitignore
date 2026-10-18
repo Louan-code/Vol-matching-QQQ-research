@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Données volumineuses / propriétaires (à fournir séparément)
+*.parquet
+*_5M.csv
+*_5m*.csv
+options_*.csv
+OPTIONS_*.csv
+data/qqq_daily_from5m.*
+
+# Export intermédiaire volumineux du rapport (régénéré par make_outputs.py / build_report.py)
+report_data.json
